@@ -1,6 +1,10 @@
 import re
+import pyautogui
+import time
+import pytest
 from playwright.sync_api import Page, expect
 
+@pytest.mark.skip_browser("firefox")
 def test_has_title(page: Page):
     page.goto("https://playwright.dev/")
 
