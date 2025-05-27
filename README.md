@@ -1,2 +1,2 @@
 # automation-tests
-practice python automation tests and codingBat leetCode tasks
+practice python and js automation tests : codingbat, leetcode, codewars, whiteboardCoding
