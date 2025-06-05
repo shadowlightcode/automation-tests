@@ -30,20 +30,20 @@
 //2. convert array to the Set
 //3. go over inside the loop and check if set has value or not
 
-// function missingNumber(arr) {
-// // const sorted = arr.sort((a, b) => a - b);
-//   const min = Math.min(...arr);
-//   const max = Math.max(...arr);
-//   const set = new Set(arr);
-//   const missing = [];
+function missingNumber(arr) {
+// const sorted = arr.sort((a, b) => a - b);
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
+  const set = new Set(arr);
+  const missing = [];
 
-//   for (let i = min; i <= max; i++) {
-//     if (!set.has(i)) {
-//       missing.push(i);
-//     }
-//   }
-//   return missing;
-// }
+  for (let i = min; i <= max; i++) {
+    if (!set.has(i)) {
+      missing.push(i);
+    }
+  }
+  return missing;
+}
 
 function missingNumber(arr) {
   const min = Math.min(...arr);
