@@ -20,7 +20,7 @@
     // Ensure your solution is efficient and covers edge cases, such as empty strings or strings with only one character. 
     // Consider exploring different methods to reverse a string, like using built-in functions, a loop, or a recursive approach.
 
-    // what should be done:
+    // What should be done:
     //1. function will accept only string
     //2. add check on typeOf
     //3. add check if string is empty
